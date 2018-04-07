@@ -18,6 +18,10 @@ public class Calculator {
         return total;
     }
 
+    public int division(int num1, int num2){
+        int total = num1 / num2;
+        return total;
+    }
     public void setName(String name){
         this.name = name;
     }
