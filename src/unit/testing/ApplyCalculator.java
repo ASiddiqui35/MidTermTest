@@ -12,4 +12,6 @@ public class ApplyCalculator {
         Assert.assertEquals("Boby", cal.getName(),"We could not find: "+cal.getName()+" cause he missed java class");
         cal.division(10,5);
     }
+
+    // some new changes....
 }
