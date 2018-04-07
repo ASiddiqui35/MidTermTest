@@ -10,6 +10,6 @@ public class ApplyCalculator {
         Assert.assertEquals(cal.multiplication(10,10),100);
         cal.setName("Boby");
         Assert.assertEquals("Boby", cal.getName(),"We could not find: "+cal.getName()+" cause he missed java class");
-
+        cal.division(10,5);
     }
 }
